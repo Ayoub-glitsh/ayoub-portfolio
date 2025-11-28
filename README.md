@@ -61,6 +61,16 @@ OR launch using VS Code Live Server:
 
 
 
+## 🌍 Live Demo
+
+If you would like to view the live version of this portfolio, you can access it here:
+
+🔗 **https://remarkable-bubblegum-7fbc1a.netlify.app/**
+
+Feel free to explore the design, navigation, and layout directly online.
+
+---
+
 ## 📝 License
 
 MIT License
