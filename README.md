@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="assets/profile.jpg" alt="Ayoub Photo" width="200" style="border-radius: 10px;" />
+  <img src="img/PIC.png" alt="Ayoub Photo" width="200" style="border-radius: 10px;" />
 </p>
 
 A modern and responsive personal portfolio website built using **HTML5**, **CSS3**, and **JavaScript**.  
