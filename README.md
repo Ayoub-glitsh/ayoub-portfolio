@@ -1,5 +1,10 @@
 # Ayoub Aguezar — Portfolio Website
 
+
+<p align="center">
+  <img src="assets/profile.jpg" alt="Ayoub Photo" width="200" style="border-radius: 10px;" />
+</p>
+
 A modern and responsive personal portfolio website built using **HTML5**, **CSS3**, and **JavaScript**.  
 This project showcases my profile, skills, services, and provides easy navigation for visitors to learn more or get in touch.
 
