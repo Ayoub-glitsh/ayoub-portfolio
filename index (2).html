@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Ayoub Aguezar</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background: linear-gradient(to right, #64ffda, #0a192f);
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background: rgba(10, 25, 47, 0.9);
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #64ffda;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #64ffda;
+        }
+        .hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+            text-align: center;
+        }
+        .hero-text {
+            max-width: 600px;
+        }
+        .hero h1 {
+            font-size: 48px;
+        }
+        .hero h1 span {
+            color: #64ffda;
+        }
+        .hero h2 {
+            font-size: 24px;
+            color: #ffcc00;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            border: 2px solid #64ffda;
+            color: #64ffda;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+        .btn:hover {
+            background: #64ffda;
+            color: #0a192f;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <h2 class="logo">Ayoub.</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Hi, I'm <span>Ayoub Aguezar</span></h1>
+            <h2>Full-Stack Developer</h2>
+            <p>Passionné par le développement web et la technologie, je crée des expériences interactives et performantes.</p>
+            <div class="buttons">
+                <a href="#" class="btn">Hire Me</a>
+                <a href="#" class="btn btn-alt">Let's Talk</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
